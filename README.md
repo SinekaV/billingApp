@@ -94,19 +94,13 @@ This API generates the final bill by calculating the total amount based on produ
 
 Project Setup
 1. Clone the repository
-bash
-Copy code
-git clone https://github.com/your-username/supermarket-billing-api.git
-cd supermarket-billing-api
+git clone https://github.com/SinekaV/billingApp.git
+cd billingApp
 2. Install Dependencies
 This project only requires Go to be installed. Go modules are used for dependency management, so you don't need to install anything else.
 
-bash
-Copy code
 go mod tidy
 3. Run the application
-bash
-Copy code
 go run main.go
 The server will start on http://localhost:8080.
 
